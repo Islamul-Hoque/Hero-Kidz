@@ -8,7 +8,7 @@ import { FiShoppingCart } from "react-icons/fi";
 const Navbar = () => {
     const nav = (
         <>
-            <li> <Link href={"/"}>Home</Link> </li>
+            <li> <NavLink href={"/"}>Home</NavLink> </li>
             <li> <NavLink href={"/products"}>Products</NavLink> </li>
             <li> <NavLink href={"/blog"}>blog</NavLink></li>
             <li> <NavLink href={"/contact"}>Contact</NavLink> </li>

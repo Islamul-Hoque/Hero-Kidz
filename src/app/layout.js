@@ -2,10 +2,15 @@ import { Geist, Geist_Mono, Poppins } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/layouts/Navbar";
 import Footer from "@/components/layouts/Footer";
+import localFont from "next/font/local";
 
 const poppins = Poppins({
   weight: ["400", "200", "400", "500", "600", "800"],
 })
+
+export const fontBangla = localFont({
+  src: "./../fonts/mayaboti-normal.ttf",
+});
 
 export const metadata = {
   title: "Create Next App",
