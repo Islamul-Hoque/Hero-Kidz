@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 import { FaStar } from "react-icons/fa";
+import CartButton from "../buttons/CartButton";
 
 
 const ProductCard = ({ product }) => {
