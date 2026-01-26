@@ -132,7 +132,7 @@ export default function RootLayout({ children }) {
     <NextAuthProvider>
       <html lang="en">
         <body className={`${poppins.className} antialiased`}>
-          <header className="py-2 md:w-11/12 mx-auto">
+          <header className="py-2 md:w-11/12 mx-auto ">
             <Navbar></Navbar>
           </header>
           <main className="py-2 md:w-11/12 mx-auto min-h-[calc(100vh-302px)]">

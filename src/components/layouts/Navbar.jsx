@@ -3,7 +3,8 @@ import Logo from "./Logo";
 import Link from "next/link";
 import NavLink from "../buttons/NavLink";
 import { FiShoppingCart } from "react-icons/fi";
-// import AuthButtons from "../buttons/AuthButtons";
+import AuthButtons from "../buttons/AuthButtons";
+
 
 const Navbar = () => {
     const nav = (
@@ -15,8 +16,8 @@ const Navbar = () => {
         </>
     );
     return (
-        <div>
-            <div className="navbar bg-base-100 ">
+        <div className="">
+            <div className="navbar bg-base-100 sticky top-0 z-50 container mx-auto ">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -52,7 +53,7 @@ const Navbar = () => {
                     <Link href={"/cart"} className="btn btn-primary">
                         <FiShoppingCart></FiShoppingCart>
                     </Link>
-                    {/* <AuthButtons></AuthButtons> */}
+                    <AuthButtons></AuthButtons>
                 </div>
             </div>
         </div>
