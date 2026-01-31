@@ -5,8 +5,8 @@ export { collections };
 
 const collections = {
     PRODUCTS: 'products',
-      USERS: "users",
-  CART: "cart",
+    USERS: "users",
+    CART: "cart",
 }
 
 const client = new MongoClient(uri, {

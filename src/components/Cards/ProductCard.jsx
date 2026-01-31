@@ -4,12 +4,11 @@ import Link from "next/link";
 import { FaStar } from "react-icons/fa";
 import CartButton from "../buttons/CartButton";
 
-
 const ProductCard = ({ product }) => {
     const { title, image, price, ratings, reviews, sold, _id } = product;
 
     return (
-        <div className="card w-80 bg-base-100 shadow-lg relative">
+        <div className="card  bg-base-100 shadow-lg relative">
             <figure className="p-4">
                 <Image
                     width={200}
